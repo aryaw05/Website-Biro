@@ -182,6 +182,9 @@ h6 {
 /**
 * Desktop Navigation 
 */
+#header.header-scrolled nav .mobile-nav-toggle{
+  color: white;
+}
 nav .mobile-nav-toggle{
   color: var(--secondary-color);
 }
@@ -403,8 +406,8 @@ nav .mobile-nav-toggle{
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 15px;
-  color: #2c4964;
+  font-size: var(--Article-Size);
+  color: var(--primary-color) !important;
 }
 
 .navbar-mobile a:hover:before,
