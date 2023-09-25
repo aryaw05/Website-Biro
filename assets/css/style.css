@@ -126,7 +126,7 @@ h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 /* #header h1.logo a {
 } */
@@ -135,7 +135,7 @@ h6 {
   background: var(--secondary-color);
   color: white;
   /* backdrop-filter: blur(4px); */
-  padding: 12px 0;
+  padding: 10px 0;
 }
 #header.header-scrolled h1.logo a {
   color: white;
@@ -150,12 +150,9 @@ h6 {
 #header.header-scrolled ul li a.nav-content {
   color: white;
 }
-#header.header-scrolled ul li a.dropdown-title{
+#header.header-scrolled ul li a.dropdown-title {
   color: white;
 }
-
-
-  
 
 #header .logo {
   font-size: 32px;
@@ -182,10 +179,10 @@ h6 {
 /**
 * Desktop Navigation 
 */
-#header.header-scrolled nav .mobile-nav-toggle{
+#header.header-scrolled nav .mobile-nav-toggle {
   color: white;
 }
-nav .mobile-nav-toggle{
+nav .mobile-nav-toggle {
   color: var(--secondary-color);
 }
 .navbar {
@@ -544,6 +541,23 @@ nav .mobile-nav-toggle{
 }
 
 @media (max-width: 768px) {
+  #header.header-scrolled,
+  #header.header-inner-pages {
+    /* padding: 10px; */
+    border-radius: 30px;
+    padding: 20px 15px;
+
+  }
+  #header {
+    padding: 20px 15px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 30px;
+  }
+  #header .logo a {
+    font-size: 26px;
+    text-align: center;
+  }
   #hero h1 {
     font-size: 26px;
     line-height: 36px;
@@ -634,7 +648,7 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about{
+.about {
   padding: 100px 0 0 0;
 }
 .about .content h3 {
