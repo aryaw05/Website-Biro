@@ -736,7 +736,7 @@ section {
   transition: all ease-in-out 0.3s;
   color: white;
   border-radius: 50px;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 .services .icon-box .icon {
@@ -865,9 +865,6 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
-.features {
-  padding: 120px 200px;
-}
 .features .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
